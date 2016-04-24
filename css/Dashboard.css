@@ -56,37 +56,37 @@ body > .header {
   display: block;
 }
 /*right side - contins main content*/
-.right-side {
+.left-side {
   background-color: #f9f9f9;
-  margin-left: 220px;
+  margin-right: 220px;
 }
 /*left side - contains sidebar*/
-.left-side {
+.right-side {
   position: absolute;
   background-color: #222222;
   width: 220px;
   top: 0;
 }
 @media screen and (min-width: 992px) {
-  .left-side {
+  .right-side {
     top: 50px;
   }
   /*Right side strech mode*/
-  .right-side.strech {
-    margin-left: 0;
+  .left-side.strech {
+    margin-right: 0;
   }
-  .right-side.strech > .content-header {
+  .left-side.strech > .content-header {
     margin-top: 0px;
   }
   /* Left side collapse */
-  .left-side.collapse-left {
-    left: -220px;
+  .right-side.collapse-right {
+    right: -220px;
   }
 }
 /*Give content full width on xs screens*/
 @media screen and (max-width: 992px) {
-  .right-side {
-    margin-left: 0;
+  .left-side {
+    margin-right: 0;
   }
 }
 /*
@@ -94,7 +94,7 @@ body > .header {
     the sidebar and the navbar will automatically become poisitioned fixed
 */
 body.fixed > .header,
-body.fixed .left-side,
+body.fixed .right-side,
 body.fixed .navbar {
   position: fixed;
 }

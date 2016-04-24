@@ -16,5 +16,5 @@ $(function() {
         handle: ".handle",
         forcePlaceholderSize: true,
         zIndex: 999999
-    }).disableSelection();;
+    }).disableSelection();
 });

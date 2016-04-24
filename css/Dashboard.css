@@ -63,6 +63,7 @@ body > .header {
 /*left side - contains sidebar*/
 .left-side {
   position: absolute;
+  background-color: #222222;
   width: 220px;
   top: 0;
 }
@@ -2788,6 +2789,13 @@ Component: timeline
 .pace-inactive {
   display: none;
 }
+
+.navbar-brand {
+    padding: 15px 43px;
+    font-size: 25px;
+    background-color: #f4f4f4;
+}
+
 /*
  * Social Buttons for Bootstrap
  *

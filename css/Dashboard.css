@@ -10,14 +10,14 @@ body {
   background: rgba(200, 200, 50, 0.3);
 }
 a {
-  color: rgba(200, 200, 50, 1);
+  color: rgba(50, 200, 250, 1);
 }
 a:hover,
 a:active,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #72afd2;
+  color: rgba(50, 200, 250, 0.5);
 }
 /* Layouts */
 .wrapper {
@@ -60,7 +60,7 @@ body > .header {
 }
 @media screen and (min-width: 992px) {
   .right-side {
-    top: 50px;
+    top: 55px;
   }
   /*left side strech mode*/
   .left-side.strech {
@@ -364,16 +364,25 @@ body > .header .logo .icon {
 	color: rgba(255, 255, 255, 1);
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: rgba(100, 50, 0, 0.3); 
+}
+
 .navbar-inverse {
 	background-color: rgba(100, 50, 0, 0.7);
-    border-color: rgba(100, 50, 0, 0.7);
 	color: rgba(255, 255, 255, 1);
 }
-.navbar-brand {
-    padding: 17px 40px;
-    font-size: 25px;
-	color: rgba(255, 255, 255, 1);
-    background-color: rgba(200, 200, 50, 0.3);
+
+.navbar-inverse .navbar-brand {
+  padding: 17px 40px;
+  font-size: 25px;
+  background-color: rgba(100, 50, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-inverse .navbar-brand:hover {
+  background-color: rgba(100, 50, 0, 1);
+  color: rgba(200, 100, 200, 1);
 }
 /*
     Component: Sidebar
@@ -468,9 +477,9 @@ body > .header .logo .icon {
 /*Dropdowns in general*/
 .dropdown-menu {
   background-color: rgba(100, 50, 0, 0.7);
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 6px rgba(100, 50, 0, 0.1);
+  -moz-box-shadow: 0px 3px 6px rgba(100, 50, 0, 0.1);
+  box-shadow: 0px 3px 6px rgba(100, 50, 0, 0.1);
   z-index: 2300;
 }
 .dropdown-menu > li > a > .glyphicon,

@@ -1,15 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
-
 html,
 body {
   overflow-x: hidden!important;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "B Yekan+", Tahoma, Geneva, sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
   background: rgba(200, 200, 50, 0.3);
 }
-/***hang me****/
 a {
   color: rgba(50, 200, 250, 1);
 }
@@ -56,7 +52,7 @@ body > .header {
 .right-side {
   position: fixed;
   background-color: rgba(100, 50, 0, 0.7);
-  width: 215px;
+  width: 254px;
   top: 0;
 }
 @media screen and (min-width: 992px) {
@@ -376,14 +372,14 @@ body > .header .logo .icon {
 
 .navbar-inverse .navbar-brand {
   padding: 17px 40px;
-  font-size: 25px;
+  font-size: 20px;
   background-color: rgba(100, 50, 0, 1);
   color: rgba(255, 255, 255, 1);
 }
 
 .navbar-inverse .navbar-brand:hover {
-  background-color: rgba(100, 50, 0, 1);
-  color: rgba(200, 100, 200, 1);
+  background-color: rgba(250, 255, 200, 0.7);
+  color: rgba(100, 50, 0, 1);
 }
 /*
     Component: Sidebar

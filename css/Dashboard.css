@@ -391,6 +391,7 @@ body > .header .logo .icon {
 */
 .sidebar {
   margin-bottom: 0px;
+  font-size: 18px;
 }
 .sidebar .sidebar-form input:focus {
   -webkit-box-shadow: none;

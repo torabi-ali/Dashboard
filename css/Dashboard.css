@@ -12,7 +12,7 @@
 html,
 body {
   overflow-x: hidden!important;
-  font-family: "Yekan", Tahoma, Geneva, sans-serif;
+  font-family: "Yekan", Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
   background: rgba(200, 200, 50, 0.3);
@@ -63,7 +63,7 @@ body > .header {
 .right-side {
   position: fixed;
   background-color: rgba(100, 50, 0, 0.7);
-  width: 254px;
+  width: 238px;
   top: 0;
 }
 @media screen and (min-width: 992px) {

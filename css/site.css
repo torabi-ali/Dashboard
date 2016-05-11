@@ -22,8 +22,8 @@ body {
 /*
   Navbar
 */
-.navbar {
-  height: 10%;
+.navbar-inverse {
+  height: 55px;
 }
 .navbar-inverse .navbar-brand {
   font-size: 20px;
@@ -36,13 +36,13 @@ body {
 }
 /*left side - contins main content*/
 .left-side {
-  margin-right: 85%;
+  margin-right: 175px;
 }
 /*right side - contains sidebar*/
 .right-side {
   position: fixed;
-  width: 13%;
-  top: 8%;
+  width: 175px;
+  top: 55px;
 }
 /*
   Sidebar
@@ -53,7 +53,7 @@ body {
 }
 .sidebar .sidebar-menu {
   list-style: none;
-  padding: 0%;
+  padding: 0px;
 }
 .sidebar .sidebar-menu > li > a {
   padding: 5% 1% 5% 1%;

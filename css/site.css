@@ -1,54 +1,46 @@
 @font-face {
     font-family: 'IRAN Sans';
-    src: url('fonts/IRANSans.eot'); /* IE9 Compat Modes */
-    src: url('fonts/IRANSans.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/IRANSans.woff2') format('woff2'); /* Super Modern Browsers */
-    src: url('fonts/IRANSans.ttf') format('truetype'); /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: 'B Mitra';
-    src: url('fonts/BMitra.eot'); /* IE9 Compat Modes */
-    src: url('fonts/BMitra.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/BMitra.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/IRANSans.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/IRANSans.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('../fonts/IRANSans.woff2') format('woff2'); /* Super Modern Browsers */
+    src: url('../fonts/IRANSans.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: 'B Nazanin';
-    src: url('fonts/BNazanin.eot'); /* IE9 Compat Modes */
-    src: url('fonts/BNazanin.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/BNazanin.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/BNazanin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BNazanin.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('../fonts/BNazanin.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: 'B Tabassom';
-    src: url('fonts/BTabassom.eot'); /* IE9 Compat Modes */
-    src: url('fonts/BTabassom.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/BTabassom.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/BTabassom.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BTabassom.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('../fonts/BTabassom.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: 'B Yekan';
-    src: url('fonts/BYekan.eot'); /* IE9 Compat Modes */
-    src: url('fonts/BYekan.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/BYekan.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/BYekan.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BYekan.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('../fonts/BYekan.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: 'B Zar';
-    src: url('fonts/BZar.eot'); /* IE9 Compat Modes */
-    src: url('fonts/BZar.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('fonts/BZar.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/BZar.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BZar.woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('../fonts/BZar.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 html,
 body {
-  overflow-x: hidden !important;
-  font-family: 'IRAN Sans', 'B Mitra', 'B Nazanin', 'B Tabassom', 'B Yekan', 'B Zar', Tahoma, sans-serif !important;
-  font-size: 17px;
+  font-family: 'IRAN Sans', 'B Nazanin', 'B Tabassom', 'B Yekan', 'B Zar', Tahoma, sans-serif !important;
+  font-size: 15px;
 }
 .fa {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /*
@@ -99,7 +91,7 @@ body {
   Dropdown
 */
 .dropdown-menu .fa {
-  font-size: 17px;
+  font-size: 15px;
 }
 .dropdown-menu > li {
   text-align: center;

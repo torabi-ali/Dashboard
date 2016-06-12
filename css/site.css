@@ -26,7 +26,8 @@ body {
   height: 55px;
 }
 .navbar-inverse .navbar-brand {
-  font-size: 30px;
+  font-family: web_Yekan;
+  font-size: 23px;
 }
 /* Define 2 column template */
 .right-side,

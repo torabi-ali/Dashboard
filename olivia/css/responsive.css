@@ -1,0 +1,561 @@
+
+
+/* #Media Queries
+================================================== */
+	@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+		nav ul li a{
+			    padding: 5px 10px;
+		}
+		#banner img{
+			width:100%;
+		}
+		#banner .googlelink img{
+			width:auto;
+		}
+		.handimg img {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: -110px;
+}
+.slide{
+	width:315px !important;
+}
+.supportimg img {
+	width:90%;
+}
+.supportimg1 img{
+	width:90%;
+}
+#newsletter .suscribe{
+	    width: 310px;
+}
+.slide:hover p.imgDescription{
+	width:264px;
+}
+		}
+
+	@media only screen and (min-width: 960px) and (max-width: 1023px) {
+			nav ul li a{
+			    padding: 2px 5px;
+				font-size: 15px;
+		}
+		#banner{
+			padding-top:170px;
+			min-height: 820px;
+		}
+		#banner img{
+			width:100%;
+		}
+		#banner .googlelink img{
+			width:auto;
+		}
+		#banner h2 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.35);
+    margin: 20px 0 20px;
+	}
+		.handimg img {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: -110px;
+}
+#amazingfeatures{
+	min-height:730px;
+}
+#amazingfeatures h3{
+	    margin: 50px 0 15px;
+}
+.amazingthree {
+    margin-top: 50px;
+}
+#newapp {
+    padding-top: 50px;
+}
+#newapp h3{
+	margin-bottom:50px;
+}
+.leftapp {
+    width: 15%;
+}
+.rightapp {
+    width: 85%;
+}
+.slide{
+	width:242px !important;
+}
+.supportimg img {
+	width:90%;
+}
+.supportimg1 img{
+	width:90%;
+}
+#newsletter .suscribe{
+	    width: 310px;
+}
+#screenshot{
+	  min-height: 700px;
+    padding: 50px 0 0;
+}
+#screenshot h3{
+	margin-bottom:50px;
+}
+.slide p.imgDescription{
+	width:242px;
+}
+#testimonial{
+	    padding: 50px 0 20px;
+		}
+#appsupport{
+	padding:50px 0;
+}
+#newsletter{
+	padding:50px 0;
+}
+.newslettersub{
+	width:70%;
+}
+#blog{
+	    min-height: 850px;
+	padding:50px 0 0;
+}
+#blog h3{
+	margin-bottom:50px;
+}
+.bubble{
+	width:58px;
+}
+.blogbix {
+    margin-bottom: 30px;
+}
+#getintouch{
+	padding:50px 0;
+}
+	}
+		
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		nav ul li a{
+			font-size:15px;
+			    padding: 5px 5px;
+		}
+		.logo{
+			padding-left:10px;
+		}
+		header {
+			    padding: 30px 0 10px 
+		}
+		#banner{
+			padding-top:150px;
+			min-height: 820px;
+		}
+		#banner img{
+			width:100%;
+		}
+		#banner h2 {
+    font-size: 39px;
+    line-height: 49px;
+		}
+		#banner .googlelink img {
+    width: auto;
+		}
+		#amazingfeatures h3{
+			margin: 50px 0 30px;
+			font-size:40px;
+		}
+		.amazingthree {
+    margin-top: 50px;
+		}
+		#amazingfeatures{
+			min-height:690px;
+		}
+		#newapp{
+			padding-top:50px;
+		}
+		#newapp h3{
+			margin-bottom:50px;
+		}
+		.handimg img{
+			width:100%;
+		}
+		#screenshot{
+			padding:50px 0;
+			min-height: 740px;
+		}
+		#screenshot h3{
+			margin-bottom:50px;
+		}
+		.slide p.imgDescription {
+ 	 	  width: 240px;
+		}
+		.slide {
+    width: 240px !important;
+		}
+		#testimonial {
+    padding: 50px 0 0px;
+		}
+		#testimonial .bx-wrapper img {
+    max-width: 90%;
+    display: block;
+}
+#appsupport {
+    padding: 50px 0 0;
+}
+#appsupport h3 {
+    font-size: 40px;
+}
+.supportimg img{
+	width:90%;
+}
+.supportimg1 img{
+	width:90%;
+}
+#newsletter{
+	padding:50px 0;
+}
+.newslettersub{
+	width:82%;
+}
+#blog{
+	padding:50px 0 0;
+	    min-height: 810px;
+}
+#blog h3{
+	font-size:40px;
+	margin-bottom:50px;
+}
+.bubble{
+	width:58px;
+}
+.blogbix {
+    margin-bottom: 30px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0;
+}
+#getintouch{
+	padding:50px 0;
+}
+#getintouch h3 {
+    font-size: 40px;
+}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		/*MENU*/
+		header{
+			padding: 30px 0 10px !important;
+		}
+		nav ul li {
+ 		   display: block;
+		   text-align:center;
+		}
+		.nav-collapse.opened{
+			height:100%;
+			background: -moz-linear-gradient(0deg, rgba(175,97,226,1) 0%, rgba(118,146,241,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(175,97,226,1)), color-stop(100%, rgba(118,146,241,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(0deg, rgba(175,97,226,1) 0%, rgba(118,146,241,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(0deg, rgba(175,97,226,1) 0%, rgba(118,146,241,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(0deg, rgba(175,97,226,1) 0%, rgba(118,146,241,1) 100%); /* ie10+ */
+background: linear-gradient(90deg, rgba(175,97,226,1) 0%, rgba(118,146,241,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af61e2', endColorstr='#7692f1',GradientType=1 ); /* ie6-9 */
+		}
+		nav{
+			width:100%;
+			margin-top: 10px !important;
+		}
+		.logo{
+			padding-left:10px;
+		}
+		#banner{
+			padding-top:150px;
+		}
+		#banner img{
+			width:50%;
+			margin:0 auto;
+			display:block;
+		}
+		#banner h2 {
+    font-size: 40px;
+    line-height: 50px;
+	margin:20px 0;
+		}
+		#banner .googlelink img{
+			width:auto;
+			display:inline-block;
+		}
+		#amazingfeatures h3{
+			    margin: 30px 0 15px;
+				font-size:30px;
+		}
+		.amazingthree {
+    margin-top: 30px;
+}
+.amazingthree figure figcaption h4 {
+    font-size: 20px;
+	    margin: 10px 0;
+}
+.amazingthree figure{
+	margin-bottom:20px;
+}
+#newapp {
+    padding-top: 30px;
+}
+#newapp h3{
+	font-size:30px;
+	margin-bottom:30px;
+}
+.rightapp h5 {
+    font-size: 18px;
+}
+.handimg img{
+	width:100%;
+}
+#screenshot{
+	padding: 30px 0 0;
+	    min-height: 600px;
+}
+#screenshot .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0;
+}
+	
+#screenshot h3{
+	font-size:30px;
+	margin-bottom:30px;
+}
+.slide{
+	width:227px !important;
+}
+.slide:hover p.imgDescription{
+	width:227px;
+}
+#testimonial{
+	padding:30px 0;
+}
+#testimonial .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0;
+}
+.righttest q {
+    margin-bottom: 10px;
+}
+#testimonial .bx-wrapper{
+	    margin: 0 auto 10px;
+}
+#testimonial .bx-wrapper img{
+	max-width:90%
+}
+#appsupport{
+	padding:30px 0 0;
+}
+#appsupport h3 {
+    font-size: 30px;
+}
+#appsupport p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 25px 0 40px;
+}
+.supportimg img{
+	width:85%;
+}
+.supportimg1 img{
+	width:85%;
+}
+.supportdetail {
+    margin-bottom: 30px;
+}
+#newsletter{
+	padding:30px 0;
+}
+#newsletter h3 {
+    font-size: 30px;
+}
+#newsletter p{
+	margin:20px 0;
+}
+.newslettersub{
+	width:100%;
+}
+#newsletter .suscribe{
+	width:300px;
+}
+#newsletter a{
+	width:120px;
+}
+#blog{
+	padding:30px 0;
+}
+#blog h3 {
+    font-size: 30px;
+	margin-bottom:30px;
+}
+#blog .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0;
+}
+#blog .bx-wrapper{
+	    margin: 0 auto 0px;
+}
+.blogbix {
+    margin-bottom: 30px;
+}
+#getintouch{
+	padding:30px 0;
+}
+#getintouch h3 {
+    font-size: 30px;
+}
+.contactform input[type="text"]{
+	margin-bottom:10px;
+}
+.contactform input[type="email"]{
+	margin-bottom:10px;
+}
+.contactform textarea{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.contactform input[type="submit"]{
+	width:100%;
+	bottom:0;
+}
+.social {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.logo{
+			width:35%;
+			padding-top:5px;
+		}
+		.logo img{
+			width:100%;
+		}
+		header {
+    padding: 10px 0 10px !important;
+}
+header.sticky{
+	padding:5px 0 !important;
+}
+#banner img {
+    width: 80%;
+}
+#banner {
+    padding-top: 100px;
+}
+#banner h2 {
+    font-size: 30px;
+    line-height: 43px;
+}
+#banner p.freedownload{
+	margin-top:30px;
+	font-size:20px;
+}
+.googlelink {
+    margin-top: 10px;
+}
+.leftapp {
+    width: 15%;
+}
+.rightapp {
+    width: 85%;
+}
+#newapp h3{
+	margin-bottom:20px;
+}
+#screenshot{
+	min-height:430px;
+}
+#screenshot .bx-wrapper{
+	margin:0 auto 20px;
+}
+.lefttest {
+    width: 100%;
+    float: none;
+    display: block;
+}
+#testimonial .bx-wrapper img {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.righttest {
+    width: 100%;
+    float: none;
+    display: block;
+    color: #ffffff;
+    padding: 0 5px;
+}
+.supportleft {
+    width: 70%;
+	}
+	.supportright {
+    float: right;
+    width: 30%;
+    display: block;
+}
+#appsupport p{
+	margin:20px 0;
+}
+#newsletter .suscribe {
+    width: 100%;
+	float:none;
+}
+#newsletter a {
+    width: 120px;
+    margin: 10px auto 0;
+    display: block;
+    text-align: center;
+    float: none;
+}
+.blogleft {
+    width: 25%;
+}
+.blogright{
+	width:75%;
+}
+.bubble {
+    position: relative;
+    width: 55px;
+    height: 95px;
+    padding: 8px;
+}
+.blogright h4 {
+    font-size: 16px;
+}
+.blogright a {
+    font-size: 12px;
+}
+.social ul li{
+	    margin: 0 3px;
+}
+.supportleft1{
+	width:70%;
+}
+.supportright1{
+	width:30%;
+}
+.slide {
+    width: auto !important;
+}
+.slide p.imgDescription{
+	width:100% !important;
+}
+	}
+

@@ -1,13 +1,21 @@
 @font-face {
-    font-family: 'IRAN Sans';
-    src: url('../fonts/IRAN Sans.eot');
-    src: url('../fonts/IRAN Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/IRAN Sans.woff') format('woff'), url('../fonts/IRAN Sans.ttf') format('truetype');
+    font-family: 'IRANSansLight';
+    src: url('../fonts/IRANSansLight.eot');
+    src: url('../fonts/IRANSansLight.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansLight.woff') format('woff'), url('../fonts/IRANSansLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'web_Yekan';
+    font-family: 'IRANSansMedium';
+    src: url('../fonts/IRANSansMedium.eot');
+    src: url('../fonts/IRANSansMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansMedium.woff') format('woff'), url('../fonts/IRANSansMedium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Web Yekan';
     src: url('../fonts/web_Yekan.eot');
     src: url('../fonts/web_Yekan.eot?#iefix') format('embedded-opentype'), url('../fonts/web_Yekan.woff') format('woff'), url('../fonts/web_Yekan.ttf') format('truetype');
     font-weight: normal;
@@ -15,8 +23,8 @@
 }
 
 body {
-  font-family: 'IRAN Sans', web_Yekan, Tahoma, sans-serif !important;
-  font-size: 20px;
+  font-family: 'IRANSansLight', 'Web Yekan', Tahoma, sans-serif !important;
+  font-size: 17px;
 	padding-top: 50px;
 }
 

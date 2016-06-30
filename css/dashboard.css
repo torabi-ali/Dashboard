@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'IRAN Sans';
-    src: url('../fonts/IRAN Sans.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/IRAN Sans.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
-    src: url('../fonts/IRAN Sans.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('../fonts/IRAN Sans.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/IRAN Sans.eot');
+    src: url('../fonts/IRAN Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/IRAN Sans.woff') format('woff'), url('../fonts/IRAN Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'web_Yekan';
-    src: url('../fonts/web_Yekan.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/web_Yekan.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
-    src: url('../fonts/web_Yekan.woff') format('woff'); /* Pretty Modern Browsers */
-    src: url('../fonts/web_Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/web_Yekan.eot');
+    src: url('../fonts/web_Yekan.eot?#iefix') format('embedded-opentype'), url('../fonts/web_Yekan.woff') format('woff'), url('../fonts/web_Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;    
 }
 
 body {

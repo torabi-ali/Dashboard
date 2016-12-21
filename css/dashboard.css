@@ -24,21 +24,71 @@
 
 body {
   font-family: 'IRANSansLight', 'Web Yekan', Tahoma, sans-serif !important;
-  font-size: 17px;
+  font-size: 15px;
 	padding-top: 50px;
+  background-color: #252830;
+  color: #cfd2da;
+}
+
+h4 {
+  font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .sub-header {
+  font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
 
 .navbar-fixed-top {
-  border: 0;
+  background-color: #252830;
+  color: #ff515b;
+  border-bottom: 1px solid #fff;
 }
 
+.navbar-collapse .navbar-nav > li > a {
+    background-color: #252830;
+    color: #ff515b;
+    line-height: 15px;
+}
+
+    .navbar-collapse .navbar-nav > li > a:hover,
+    .navbar-collapse .navbar-nav > li > a:focus {
+        color: #cfd2da;
+        font-weight: bold;
+    }
+
 .navbar-inverse .navbar-brand {
-  font-family: web_Yekan;
+  background-color: #252830;
+  color: #ff515b;
+  font-family: 'Web Yekan';
+  font-size: 25px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  background-color: #252830;
+  color: #cfd2da;
+  font-weight: bold;
   font-size: 25px;
 }
 
@@ -56,23 +106,35 @@ body {
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-left: 1px solid #eee;
+    background-color: #252830;
+    border-left: 1px solid #fff;
   }
 }
+
+    .nav-sidebar > li > a {
+          background-color: #252830;
+          color: #e74c3c;
+    }
+
+        .nav-sidebar > li > a:hover {
+            background-color: #252830;
+            color: #cfd2da;
+            font-weight: bold;
+        }
+
+    .nav-sidebar > .active > a,
+    .nav-sidebar > .active > a:hover,
+    .nav-sidebar > .active > a:focus {
+        background-color: #252830;
+        color: #cfd2da;
+        font-weight: bold;
+    }
 
 .nav-sidebar {
   margin-left: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-right: -20px;
   padding: 15px 20px 15px 20px;
-}
-
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
 }
 
 .main {
